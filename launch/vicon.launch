@@ -3,9 +3,6 @@
 		<param name="stream_mode" value="ClientPull" type="str" />
 		<!--param name="datastream_hostport" value="192.168.0.13:801" type="str" /-->
 		<param name="datastream_hostport" value="129.67.95.10:801" type="str" />
-		<param name="tf_ref_frame_id" value="/vicon/world" type="str" />
+		<param name="tf_ref_frame_id" value="/world" type="str" />
 	</node>
-
-	<!--SYNTAX: static_transform_publisher x y z yaw pitch roll frame_id child_frame_id  period (milliseconds)-->
-  <node pkg="tf" type="static_transform_publisher" name="vicon_origin_offset_publisher" output="screen"  args="0 0 0 0 0 0 /odom /world 100" />
 </launch>
