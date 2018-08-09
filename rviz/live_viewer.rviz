@@ -1,0 +1,751 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+      Splitter Ratio: 0.5
+    Tree Height: 1135
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.588679016
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.0299999993
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        LF_ADAPTER:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LF_FOOT:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LF_HIP:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LF_SHANK:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LF_THIGH:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LH_ADAPTER:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LH_FOOT:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LH_HIP:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LH_SHANK:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LH_THIGH:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Link Tree Style: Links in Alphabetic Order
+        RF_ADAPTER:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RF_FOOT:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RF_HIP:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RF_SHANK:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RF_THIGH:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RH_ADAPTER:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RH_FOOT:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RH_HIP:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RH_SHANK:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RH_THIGH:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_inertia:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        realsense_d435_camera:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        realsense_d435_camera_axis_aligned:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        realsense_d435_depth_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        realsense_d435_mount:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        realsense_d435_mount_axis_aligned:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        velodyne:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        velodyne_axis_aligned:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        velodyne_mount:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        vicon/marker1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        vicon/marker2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        vicon/marker3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        vicon/marker4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        vicon/marker5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        LF_ADAPTER:
+          Value: true
+        LF_FOOT:
+          Value: true
+        LF_HIP:
+          Value: true
+        LF_SHANK:
+          Value: true
+        LF_THIGH:
+          Value: true
+        LH_ADAPTER:
+          Value: true
+        LH_FOOT:
+          Value: true
+        LH_HIP:
+          Value: true
+        LH_SHANK:
+          Value: true
+        LH_THIGH:
+          Value: true
+        RF_ADAPTER:
+          Value: true
+        RF_FOOT:
+          Value: true
+        RF_HIP:
+          Value: true
+        RF_SHANK:
+          Value: true
+        RF_THIGH:
+          Value: true
+        RH_ADAPTER:
+          Value: true
+        RH_FOOT:
+          Value: true
+        RH_HIP:
+          Value: true
+        RH_SHANK:
+          Value: true
+        RH_THIGH:
+          Value: true
+        base:
+          Value: true
+        base_inertia:
+          Value: true
+        control:
+          Value: true
+        feetcenter:
+          Value: true
+        footprint:
+          Value: true
+        ghost_desired/LF_ADAPTER:
+          Value: true
+        ghost_desired/LF_FOOT:
+          Value: true
+        ghost_desired/LF_HIP:
+          Value: true
+        ghost_desired/LF_SHANK:
+          Value: true
+        ghost_desired/LF_THIGH:
+          Value: true
+        ghost_desired/LH_ADAPTER:
+          Value: true
+        ghost_desired/LH_FOOT:
+          Value: true
+        ghost_desired/LH_HIP:
+          Value: true
+        ghost_desired/LH_SHANK:
+          Value: true
+        ghost_desired/LH_THIGH:
+          Value: true
+        ghost_desired/RF_ADAPTER:
+          Value: true
+        ghost_desired/RF_FOOT:
+          Value: true
+        ghost_desired/RF_HIP:
+          Value: true
+        ghost_desired/RF_SHANK:
+          Value: true
+        ghost_desired/RF_THIGH:
+          Value: true
+        ghost_desired/RH_ADAPTER:
+          Value: true
+        ghost_desired/RH_FOOT:
+          Value: true
+        ghost_desired/RH_HIP:
+          Value: true
+        ghost_desired/RH_SHANK:
+          Value: true
+        ghost_desired/RH_THIGH:
+          Value: true
+        ghost_desired/base:
+          Value: true
+        ghost_desired/base_inertia:
+          Value: true
+        ghost_desired/feetcenter:
+          Value: true
+        ghost_desired/footprint:
+          Value: true
+        ghost_desired/imu_link:
+          Value: true
+        ghost_desired/realsense_d435_camera:
+          Value: true
+        ghost_desired/realsense_d435_camera_axis_aligned:
+          Value: true
+        ghost_desired/realsense_d435_depth_optical_frame:
+          Value: true
+        ghost_desired/realsense_d435_mount:
+          Value: true
+        ghost_desired/realsense_d435_mount_axis_aligned:
+          Value: true
+        ghost_desired/velodyne:
+          Value: true
+        ghost_desired/velodyne_axis_aligned:
+          Value: true
+        ghost_desired/velodyne_mount:
+          Value: true
+        ghost_measured/LF_ADAPTER:
+          Value: true
+        ghost_measured/LF_FOOT:
+          Value: true
+        ghost_measured/LF_HIP:
+          Value: true
+        ghost_measured/LF_SHANK:
+          Value: true
+        ghost_measured/LF_THIGH:
+          Value: true
+        ghost_measured/LH_ADAPTER:
+          Value: true
+        ghost_measured/LH_FOOT:
+          Value: true
+        ghost_measured/LH_HIP:
+          Value: true
+        ghost_measured/LH_SHANK:
+          Value: true
+        ghost_measured/LH_THIGH:
+          Value: true
+        ghost_measured/RF_ADAPTER:
+          Value: true
+        ghost_measured/RF_FOOT:
+          Value: true
+        ghost_measured/RF_HIP:
+          Value: true
+        ghost_measured/RF_SHANK:
+          Value: true
+        ghost_measured/RF_THIGH:
+          Value: true
+        ghost_measured/RH_ADAPTER:
+          Value: true
+        ghost_measured/RH_FOOT:
+          Value: true
+        ghost_measured/RH_HIP:
+          Value: true
+        ghost_measured/RH_SHANK:
+          Value: true
+        ghost_measured/RH_THIGH:
+          Value: true
+        ghost_measured/base:
+          Value: true
+        ghost_measured/base_inertia:
+          Value: true
+        ghost_measured/feetcenter:
+          Value: true
+        ghost_measured/footprint:
+          Value: true
+        ghost_measured/imu_link:
+          Value: true
+        ghost_measured/realsense_d435_camera:
+          Value: true
+        ghost_measured/realsense_d435_camera_axis_aligned:
+          Value: true
+        ghost_measured/realsense_d435_depth_optical_frame:
+          Value: true
+        ghost_measured/realsense_d435_mount:
+          Value: true
+        ghost_measured/realsense_d435_mount_axis_aligned:
+          Value: true
+        ghost_measured/velodyne:
+          Value: true
+        ghost_measured/velodyne_axis_aligned:
+          Value: true
+        ghost_measured/velodyne_mount:
+          Value: true
+        imu_link:
+          Value: true
+        loco_footprint:
+          Value: true
+        map:
+          Value: true
+        map_ga:
+          Value: true
+        odom:
+          Value: true
+        realsense_d435_aligned_depth_to_color_frame:
+          Value: true
+        realsense_d435_aligned_depth_to_infra1_frame:
+          Value: true
+        realsense_d435_aligned_depth_to_infra2_frame:
+          Value: true
+        realsense_d435_camera:
+          Value: true
+        realsense_d435_camera_axis_aligned:
+          Value: true
+        realsense_d435_camera_forward:
+          Value: true
+        realsense_d435_color_frame:
+          Value: true
+        realsense_d435_color_optical_frame:
+          Value: true
+        realsense_d435_depth_frame:
+          Value: true
+        realsense_d435_depth_optical_frame:
+          Value: true
+        realsense_d435_forward_aligned_depth_to_color_frame:
+          Value: true
+        realsense_d435_forward_aligned_depth_to_infra1_frame:
+          Value: true
+        realsense_d435_forward_aligned_depth_to_infra2_frame:
+          Value: true
+        realsense_d435_forward_camera:
+          Value: true
+        realsense_d435_forward_color_frame:
+          Value: true
+        realsense_d435_forward_color_optical_frame:
+          Value: true
+        realsense_d435_forward_depth_frame:
+          Value: true
+        realsense_d435_forward_depth_optical_frame:
+          Value: true
+        realsense_d435_forward_infra1_frame:
+          Value: true
+        realsense_d435_forward_infra1_optical_frame:
+          Value: true
+        realsense_d435_forward_infra2_frame:
+          Value: true
+        realsense_d435_forward_infra2_optical_frame:
+          Value: true
+        realsense_d435_infra1_frame:
+          Value: true
+        realsense_d435_infra1_optical_frame:
+          Value: true
+        realsense_d435_infra2_frame:
+          Value: true
+        realsense_d435_infra2_optical_frame:
+          Value: true
+        realsense_d435_mount:
+          Value: true
+        realsense_d435_mount_axis_aligned:
+          Value: true
+        velodyne:
+          Value: true
+        velodyne_axis_aligned:
+          Value: true
+        velodyne_mount:
+          Value: true
+        vicon/marker1:
+          Value: true
+        vicon/marker2:
+          Value: true
+        vicon/marker3:
+          Value: true
+        vicon/marker4:
+          Value: true
+        vicon/marker5:
+          Value: true
+        world:
+          Value: true
+      Marker Scale: 0.100000001
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        world:
+          odom:
+            base:
+              LF_HIP:
+                LF_THIGH:
+                  LF_SHANK:
+                    LF_ADAPTER:
+                      LF_FOOT:
+                        {}
+              LH_HIP:
+                LH_THIGH:
+                  LH_SHANK:
+                    LH_ADAPTER:
+                      LH_FOOT:
+                        {}
+              RF_HIP:
+                RF_THIGH:
+                  RF_SHANK:
+                    RF_ADAPTER:
+                      RF_FOOT:
+                        {}
+              RH_HIP:
+                RH_THIGH:
+                  RH_SHANK:
+                    RH_ADAPTER:
+                      RH_FOOT:
+                        {}
+              base_inertia:
+                {}
+              imu_link:
+                {}
+              realsense_d435_mount_axis_aligned:
+                realsense_d435_mount:
+                  realsense_d435_camera_axis_aligned:
+                    realsense_d435_camera:
+                      realsense_d435_aligned_depth_to_color_frame:
+                        realsense_d435_color_optical_frame:
+                          {}
+                      realsense_d435_aligned_depth_to_infra1_frame:
+                        realsense_d435_infra1_optical_frame:
+                          {}
+                      realsense_d435_aligned_depth_to_infra2_frame:
+                        realsense_d435_infra2_optical_frame:
+                          {}
+                      realsense_d435_camera_forward:
+                        {}
+                      realsense_d435_color_frame:
+                        {}
+                      realsense_d435_depth_frame:
+                        realsense_d435_depth_optical_frame:
+                          {}
+                      realsense_d435_infra1_frame:
+                        {}
+                      realsense_d435_infra2_frame:
+                        {}
+              velodyne_mount:
+                velodyne_axis_aligned:
+                  velodyne:
+                    {}
+              vicon/marker1:
+                {}
+              vicon/marker2:
+                {}
+              vicon/marker3:
+                {}
+              vicon/marker4:
+                {}
+              vicon/marker5:
+                {}
+            control:
+              {}
+            feetcenter:
+              {}
+            footprint:
+              {}
+            ghost_desired/base:
+              ghost_desired/LF_HIP:
+                ghost_desired/LF_THIGH:
+                  ghost_desired/LF_SHANK:
+                    ghost_desired/LF_ADAPTER:
+                      ghost_desired/LF_FOOT:
+                        {}
+              ghost_desired/LH_HIP:
+                ghost_desired/LH_THIGH:
+                  ghost_desired/LH_SHANK:
+                    ghost_desired/LH_ADAPTER:
+                      ghost_desired/LH_FOOT:
+                        {}
+              ghost_desired/RF_HIP:
+                ghost_desired/RF_THIGH:
+                  ghost_desired/RF_SHANK:
+                    ghost_desired/RF_ADAPTER:
+                      ghost_desired/RF_FOOT:
+                        {}
+              ghost_desired/RH_HIP:
+                ghost_desired/RH_THIGH:
+                  ghost_desired/RH_SHANK:
+                    ghost_desired/RH_ADAPTER:
+                      ghost_desired/RH_FOOT:
+                        {}
+              ghost_desired/base_inertia:
+                {}
+              ghost_desired/imu_link:
+                {}
+              ghost_desired/realsense_d435_mount_axis_aligned:
+                ghost_desired/realsense_d435_mount:
+                  ghost_desired/realsense_d435_camera_axis_aligned:
+                    ghost_desired/realsense_d435_camera:
+                      ghost_desired/realsense_d435_depth_optical_frame:
+                        {}
+              ghost_desired/velodyne_mount:
+                ghost_desired/velodyne_axis_aligned:
+                  ghost_desired/velodyne:
+                    {}
+            ghost_desired/feetcenter:
+              {}
+            ghost_desired/footprint:
+              {}
+            ghost_measured/base:
+              ghost_measured/LF_HIP:
+                ghost_measured/LF_THIGH:
+                  ghost_measured/LF_SHANK:
+                    ghost_measured/LF_ADAPTER:
+                      ghost_measured/LF_FOOT:
+                        {}
+              ghost_measured/LH_HIP:
+                ghost_measured/LH_THIGH:
+                  ghost_measured/LH_SHANK:
+                    ghost_measured/LH_ADAPTER:
+                      ghost_measured/LH_FOOT:
+                        {}
+              ghost_measured/RF_HIP:
+                ghost_measured/RF_THIGH:
+                  ghost_measured/RF_SHANK:
+                    ghost_measured/RF_ADAPTER:
+                      ghost_measured/RF_FOOT:
+                        {}
+              ghost_measured/RH_HIP:
+                ghost_measured/RH_THIGH:
+                  ghost_measured/RH_SHANK:
+                    ghost_measured/RH_ADAPTER:
+                      ghost_measured/RH_FOOT:
+                        {}
+              ghost_measured/base_inertia:
+                {}
+              ghost_measured/imu_link:
+                {}
+              ghost_measured/realsense_d435_mount_axis_aligned:
+                ghost_measured/realsense_d435_mount:
+                  ghost_measured/realsense_d435_camera_axis_aligned:
+                    ghost_measured/realsense_d435_camera:
+                      ghost_measured/realsense_d435_depth_optical_frame:
+                        {}
+              ghost_measured/velodyne_mount:
+                ghost_measured/velodyne_axis_aligned:
+                  ghost_measured/velodyne:
+                    {}
+            ghost_measured/feetcenter:
+              {}
+            ghost_measured/footprint:
+              {}
+            loco_footprint:
+              {}
+            map:
+              {}
+            map_ga:
+              {}
+      Update Interval: 0
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: odom
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Topic: /initialpose
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 2.12103081
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.0599999987
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -0.0357487798
+        Y: 0.16488108
+        Z: 0.101284742
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.0500000007
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.00999999978
+      Pitch: 0.565398335
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 5.24858904
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1416
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd00000004000000000000016a000004fefc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006100fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c0061007900730100000028000004fe000000d700fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f000004fefc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730100000028000004fe000000ad00fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000009d50000003efc0100000002fb0000000800540069006d00650100000000000009d50000030000fffffffb0000000800540069006d0065010000000000000450000000000000000000000750000004fe00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 2517
+  X: 43
+  Y: 24

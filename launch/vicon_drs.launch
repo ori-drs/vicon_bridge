@@ -1,0 +1,21 @@
+<launch>
+	<node pkg="vicon_bridge" type="vicon_bridge" name="vicon" output="screen">
+		<param name="stream_mode" value="ClientPull" type="str" />
+		<!--param name="datastream_hostport" value="192.168.0.13:801" type="str" /-->
+		<param name="datastream_hostport" value="129.67.95.10:801" type="str" />
+		<param name="tf_ref_frame_id" value="/world" type="str" />
+	</node>
+
+	<!--SYNTAX: static_transform_publisher x y z yaw pitch roll frame_id child_frame_id  period (milliseconds)-->
+  <node pkg="tf" type="static_transform_publisher" name="vicon_origin_offset_publisher" output="screen"  args="-1.559 3.935 0 0 0 0 /world /odom 100" />
+
+	<!-- Load the Vicon markers into the URDF file
+ 	Note: For this to work you need to remove the 'ANYmal visualiser and load the RobotModel.'-->
+	<arg name="model" default="$(find vicon_bridge)/urdf/anymal_vicon_markers.urdf.xacro" />
+	<param name="robot_description" command="xacro --inorder $(arg model)" />
+	<node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+
+  <arg name="rvizconfig" default="$(find vicon_bridge)/rviz/live_viewer.rviz" />
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" />
+</launch>
