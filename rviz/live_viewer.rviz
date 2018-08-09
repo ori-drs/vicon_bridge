@@ -5,7 +5,8 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-      Splitter Ratio: 0.5
+        - /Marker1/Status1
+      Splitter Ratio: 0.50555557
     Tree Height: 1135
   - Class: rviz/Selection
     Name: Selection
@@ -299,49 +300,29 @@ Visualization Manager:
           Value: true
         ghost_desired/LF_FOOT:
           Value: true
-        ghost_desired/LF_HIP:
-          Value: true
         ghost_desired/LF_SHANK:
-          Value: true
-        ghost_desired/LF_THIGH:
           Value: true
         ghost_desired/LH_ADAPTER:
           Value: true
         ghost_desired/LH_FOOT:
           Value: true
-        ghost_desired/LH_HIP:
-          Value: true
         ghost_desired/LH_SHANK:
-          Value: true
-        ghost_desired/LH_THIGH:
           Value: true
         ghost_desired/RF_ADAPTER:
           Value: true
         ghost_desired/RF_FOOT:
           Value: true
-        ghost_desired/RF_HIP:
-          Value: true
         ghost_desired/RF_SHANK:
-          Value: true
-        ghost_desired/RF_THIGH:
           Value: true
         ghost_desired/RH_ADAPTER:
           Value: true
         ghost_desired/RH_FOOT:
           Value: true
-        ghost_desired/RH_HIP:
-          Value: true
         ghost_desired/RH_SHANK:
-          Value: true
-        ghost_desired/RH_THIGH:
           Value: true
         ghost_desired/base:
           Value: true
         ghost_desired/base_inertia:
-          Value: true
-        ghost_desired/feetcenter:
-          Value: true
-        ghost_desired/footprint:
           Value: true
         ghost_desired/imu_link:
           Value: true
@@ -365,49 +346,29 @@ Visualization Manager:
           Value: true
         ghost_measured/LF_FOOT:
           Value: true
-        ghost_measured/LF_HIP:
-          Value: true
         ghost_measured/LF_SHANK:
-          Value: true
-        ghost_measured/LF_THIGH:
           Value: true
         ghost_measured/LH_ADAPTER:
           Value: true
         ghost_measured/LH_FOOT:
           Value: true
-        ghost_measured/LH_HIP:
-          Value: true
         ghost_measured/LH_SHANK:
-          Value: true
-        ghost_measured/LH_THIGH:
           Value: true
         ghost_measured/RF_ADAPTER:
           Value: true
         ghost_measured/RF_FOOT:
           Value: true
-        ghost_measured/RF_HIP:
-          Value: true
         ghost_measured/RF_SHANK:
-          Value: true
-        ghost_measured/RF_THIGH:
           Value: true
         ghost_measured/RH_ADAPTER:
           Value: true
         ghost_measured/RH_FOOT:
           Value: true
-        ghost_measured/RH_HIP:
-          Value: true
         ghost_measured/RH_SHANK:
-          Value: true
-        ghost_measured/RH_THIGH:
           Value: true
         ghost_measured/base:
           Value: true
         ghost_measured/base_inertia:
-          Value: true
-        ghost_measured/feetcenter:
-          Value: true
-        ghost_measured/footprint:
           Value: true
         ghost_measured/imu_link:
           Value: true
@@ -499,6 +460,8 @@ Visualization Manager:
           Value: true
         velodyne_mount:
           Value: true
+        vicon/anymal/anymal:
+          Value: true
         vicon/marker1:
           Value: true
         vicon/marker2:
@@ -509,7 +472,7 @@ Visualization Manager:
           Value: true
         vicon/marker5:
           Value: true
-        world:
+        vicon/world:
           Value: true
       Marker Scale: 0.100000001
       Name: TF
@@ -517,7 +480,7 @@ Visualization Manager:
       Show Axes: true
       Show Names: true
       Tree:
-        world:
+        vicon/world:
           odom:
             base:
               LF_HIP:
@@ -592,99 +555,23 @@ Visualization Manager:
               {}
             footprint:
               {}
-            ghost_desired/base:
-              ghost_desired/LF_HIP:
-                ghost_desired/LF_THIGH:
-                  ghost_desired/LF_SHANK:
-                    ghost_desired/LF_ADAPTER:
-                      ghost_desired/LF_FOOT:
-                        {}
-              ghost_desired/LH_HIP:
-                ghost_desired/LH_THIGH:
-                  ghost_desired/LH_SHANK:
-                    ghost_desired/LH_ADAPTER:
-                      ghost_desired/LH_FOOT:
-                        {}
-              ghost_desired/RF_HIP:
-                ghost_desired/RF_THIGH:
-                  ghost_desired/RF_SHANK:
-                    ghost_desired/RF_ADAPTER:
-                      ghost_desired/RF_FOOT:
-                        {}
-              ghost_desired/RH_HIP:
-                ghost_desired/RH_THIGH:
-                  ghost_desired/RH_SHANK:
-                    ghost_desired/RH_ADAPTER:
-                      ghost_desired/RH_FOOT:
-                        {}
-              ghost_desired/base_inertia:
-                {}
-              ghost_desired/imu_link:
-                {}
-              ghost_desired/realsense_d435_mount_axis_aligned:
-                ghost_desired/realsense_d435_mount:
-                  ghost_desired/realsense_d435_camera_axis_aligned:
-                    ghost_desired/realsense_d435_camera:
-                      ghost_desired/realsense_d435_depth_optical_frame:
-                        {}
-              ghost_desired/velodyne_mount:
-                ghost_desired/velodyne_axis_aligned:
-                  ghost_desired/velodyne:
-                    {}
-            ghost_desired/feetcenter:
-              {}
-            ghost_desired/footprint:
-              {}
-            ghost_measured/base:
-              ghost_measured/LF_HIP:
-                ghost_measured/LF_THIGH:
-                  ghost_measured/LF_SHANK:
-                    ghost_measured/LF_ADAPTER:
-                      ghost_measured/LF_FOOT:
-                        {}
-              ghost_measured/LH_HIP:
-                ghost_measured/LH_THIGH:
-                  ghost_measured/LH_SHANK:
-                    ghost_measured/LH_ADAPTER:
-                      ghost_measured/LH_FOOT:
-                        {}
-              ghost_measured/RF_HIP:
-                ghost_measured/RF_THIGH:
-                  ghost_measured/RF_SHANK:
-                    ghost_measured/RF_ADAPTER:
-                      ghost_measured/RF_FOOT:
-                        {}
-              ghost_measured/RH_HIP:
-                ghost_measured/RH_THIGH:
-                  ghost_measured/RH_SHANK:
-                    ghost_measured/RH_ADAPTER:
-                      ghost_measured/RH_FOOT:
-                        {}
-              ghost_measured/base_inertia:
-                {}
-              ghost_measured/imu_link:
-                {}
-              ghost_measured/realsense_d435_mount_axis_aligned:
-                ghost_measured/realsense_d435_mount:
-                  ghost_measured/realsense_d435_camera_axis_aligned:
-                    ghost_measured/realsense_d435_camera:
-                      ghost_measured/realsense_d435_depth_optical_frame:
-                        {}
-              ghost_measured/velodyne_mount:
-                ghost_measured/velodyne_axis_aligned:
-                  ghost_measured/velodyne:
-                    {}
-            ghost_measured/feetcenter:
-              {}
-            ghost_measured/footprint:
-              {}
             loco_footprint:
               {}
             map:
               {}
             map_ga:
               {}
+          vicon/anymal/anymal:
+            {}
       Update Interval: 0
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /vicon/markers/marker_array
+      Name: Marker
+      Namespaces:
+        anymal: true
+      Queue Size: 100
       Value: true
   Enabled: true
   Global Options:
@@ -711,25 +598,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2.12103081
+      Distance: 4.92138624
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.0357487798
-        Y: 0.16488108
-        Z: 0.101284742
+        X: -0.450661272
+        Y: 1.23223817
+        Z: -0.309175551
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.565398335
-      Target Frame: <Fixed Frame>
+      Pitch: 0.48479712
+      Target Frame: odom
       Value: Orbit (rviz)
-      Yaw: 5.24858904
+      Yaw: 5.11360121
     Saved: ~
 Window Geometry:
   Displays:
