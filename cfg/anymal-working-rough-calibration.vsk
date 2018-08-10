@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<KinematicModel VERSION="3.2">
+	<Parameters>
+		<Parameter NAME="anymal_origin_1_anymal_origin_11_x" VALUE="-86.039947509765625" PRIOR="-86.039947509765625" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_11_y" VALUE="51.437484741210938" PRIOR="51.437484741210938" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_11_z" VALUE="355.525390625" PRIOR="355.525390625" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_12_x" VALUE="-87.302032470703125" PRIOR="-87.302032470703125" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_12_y" VALUE="-52.434665679931641" PRIOR="-52.434665679931641" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_12_z" VALUE="357.7591552734375" PRIOR="357.7591552734375" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_13_x" VALUE="197.20004272460938" PRIOR="197.20004272460938" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_13_y" VALUE="-94.871879577636719" PRIOR="-94.871879577636719" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_13_z" VALUE="221.42195129394531" PRIOR="221.42195129394531" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_14_x" VALUE="43.927837371826172" PRIOR="43.927837371826172" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_14_y" VALUE="-94.872467041015625" PRIOR="-94.872467041015625" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_14_z" VALUE="220.01252746582031" PRIOR="220.01252746582031" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_15_x" VALUE="124.23548889160156" PRIOR="124.23548889160156" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_15_y" VALUE="102.66897583007813" PRIOR="102.66897583007813" HIDDEN="true"/>
+		<Parameter NAME="anymal_origin_1_anymal_origin_15_z" VALUE="216.4718017578125" PRIOR="216.4718017578125" HIDDEN="true"/>
+	</Parameters>
+	<Skeleton>
+		<Segment NAME="anymal" OPACITY="255" BOUNDS="-50 -50 -50 50 50 50" MASS="0" MASS-CENTRE="0 0 0" INERTIA="0 0 0" RGB="255 164 0" HIDDEN="false" DRAW-END-RATIO="1" DRAW-HEIGHT="0.5" DRAW-TWIST="0" DRAW-WIDTH="0.5" DRAW-STYLE="box" DRAW-SHADING="shaded-smooth">
+			<JointFree NAME="World_anymal_origin_1" PRE-ORIENTATION="0 0 0" PRE-POSITION="0 0 0" INVERSE-POST-ORIENTATION="0 0 0" INVERSE-POST-POSITION="0 0 0" MEAN="0 0 0 0 0 0" COVARIANCE="2.464900016784668 0 0 0 0 0 0 2.464900016784668 0 0 0 0 0 0 246.49000549316406 0 0 0 0 0 0 1000000 0 0 0 0 0 0 1000000 0 0 0 0 0 0 1000000" T="* * * * * *" SIGNS="+ + + + + +" RANGE-CENTRING-STATE="0 0 0 0 0 0" RANGE-MATRIX="29.60881233215332 0 0 0 0 0 0 29.60881233215332 0 0 0 0 0 0 29.60881233215332 0 0 0 0 0 0 100000000 0 0 0 0 0 0 100000000 0 0 0 0 0 0 100000000">
+				<JointTemplate MEAN="0 0 0 0 0 0" COVARIANCE="2.464900016784668 0 0 0 0 0 0 2.464900016784668 0 0 0 0 0 0 246.49000549316406 0 0 0 0 0 0 1000000 0 0 0 0 0 0 1000000 0 0 0 0 0 0 1000000" TPOSE-MEAN="0 0 0 0 0 0" TPOSE-COVARIANCE="0.10000000149011612 0 0 0 0 0 0 0.10000000149011612 0 0 0 0 0 0 0.10000000149011612 0 0 0 0 0 0 0.10000000149011612 0 0 0 0 0 0 0.10000000149011612 0 0 0 0 0 0 0.10000000149011612" PRE-ORIENTATION="0 0 0" PRE-POSITION="0 0 0" INVERSE-POST-ORIENTATION="0 0 0" INVERSE-POST-POSITION="0 0 0"/>
+			</JointFree>
+		</Segment>
+	</Skeleton>
+	<MarkerSet>
+		<Markers>
+			<Marker NAME="anymal_origin_11" RADIUS="12.5" RGB="255 164 0" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="anymal_origin_12" RADIUS="12.5" RGB="255 164 0" STATUS="optional" VIEW-ANGLE="0"/>
+			<Marker NAME="anymal_origin_13" RADIUS="12.5" RGB="255 164 0" STATUS="optional" VIEW-ANGLE="0"/>
+			<Marker NAME="anymal_origin_14" RADIUS="12.5" RGB="255 164 0" STATUS="optional" VIEW-ANGLE="0"/>
+			<Marker NAME="anymal_origin_15" RADIUS="12.5" RGB="255 164 0" STATUS="optional" VIEW-ANGLE="0"/>
+		</Markers>
+		<Sticks>
+			<Stick MARKER1="anymal_origin_11" MARKER2="anymal_origin_12" RGB1="255 164 0" RGB2="255 164 0"/>
+			<Stick MARKER1="anymal_origin_11" MARKER2="anymal_origin_13" RGB1="255 164 0" RGB2="255 164 0"/>
+			<Stick MARKER1="anymal_origin_11" MARKER2="anymal_origin_14" RGB1="255 164 0" RGB2="255 164 0"/>
+			<Stick MARKER1="anymal_origin_11" MARKER2="anymal_origin_15" RGB1="255 164 0" RGB2="255 164 0"/>
+			<Stick MARKER1="anymal_origin_12" MARKER2="anymal_origin_13" RGB1="255 164 0" RGB2="255 164 0"/>
+			<Stick MARKER1="anymal_origin_12" MARKER2="anymal_origin_14" RGB1="255 164 0" RGB2="255 164 0"/>
+			<Stick MARKER1="anymal_origin_12" MARKER2="anymal_origin_15" RGB1="255 164 0" RGB2="255 164 0"/>
+			<Stick MARKER1="anymal_origin_13" MARKER2="anymal_origin_14" RGB1="255 164 0" RGB2="255 164 0"/>
+			<Stick MARKER1="anymal_origin_13" MARKER2="anymal_origin_15" RGB1="255 164 0" RGB2="255 164 0"/>
+			<Stick MARKER1="anymal_origin_14" MARKER2="anymal_origin_15" RGB1="255 164 0" RGB2="255 164 0"/>
+		</Sticks>
+	</MarkerSet>
+	<TargetSet>
+		<Targets>
+			<TargetLocalPointToWorldPoint COVARIANCE="1 0 0 0 1 0 0 0 1" FILL-GAPS="false" GAUSSIAN="true" HIDDEN="false" MARKER="anymal_origin_11" OPACITY="255" POSITION="'anymal_origin_1_anymal_origin_11_x' 'anymal_origin_1_anymal_origin_11_y' 'anymal_origin_1_anymal_origin_11_z'" RGB="93 93 93" SEGMENT="anymal" WEIGHT="1" DRAW-STYLE="None">
+				<TargetLocalPointToWorldPointTemplate COVARIANCE="1 0 0 0 1 0 0 0 1"/>
+			</TargetLocalPointToWorldPoint>
+			<TargetLocalPointToWorldPoint COVARIANCE="1 0 0 0 1 0 0 0 1" FILL-GAPS="false" GAUSSIAN="true" HIDDEN="false" MARKER="anymal_origin_12" OPACITY="255" POSITION="'anymal_origin_1_anymal_origin_12_x' 'anymal_origin_1_anymal_origin_12_y' 'anymal_origin_1_anymal_origin_12_z'" RGB="93 93 93" SEGMENT="anymal" WEIGHT="1" DRAW-STYLE="None">
+				<TargetLocalPointToWorldPointTemplate COVARIANCE="1 0 0 0 1 0 0 0 1"/>
+			</TargetLocalPointToWorldPoint>
+			<TargetLocalPointToWorldPoint COVARIANCE="1 0 0 0 1 0 0 0 1" FILL-GAPS="false" GAUSSIAN="true" HIDDEN="false" MARKER="anymal_origin_13" OPACITY="255" POSITION="'anymal_origin_1_anymal_origin_13_x' 'anymal_origin_1_anymal_origin_13_y' 'anymal_origin_1_anymal_origin_13_z'" RGB="93 93 93" SEGMENT="anymal" WEIGHT="1" DRAW-STYLE="None">
+				<TargetLocalPointToWorldPointTemplate COVARIANCE="1 0 0 0 1 0 0 0 1"/>
+			</TargetLocalPointToWorldPoint>
+			<TargetLocalPointToWorldPoint COVARIANCE="1 0 0 0 1 0 0 0 1" FILL-GAPS="false" GAUSSIAN="true" HIDDEN="false" MARKER="anymal_origin_14" OPACITY="255" POSITION="'anymal_origin_1_anymal_origin_14_x' 'anymal_origin_1_anymal_origin_14_y' 'anymal_origin_1_anymal_origin_14_z'" RGB="93 93 93" SEGMENT="anymal" WEIGHT="1" DRAW-STYLE="None">
+				<TargetLocalPointToWorldPointTemplate COVARIANCE="1 0 0 0 1 0 0 0 1"/>
+			</TargetLocalPointToWorldPoint>
+			<TargetLocalPointToWorldPoint COVARIANCE="1 0 0 0 1 0 0 0 1" FILL-GAPS="false" GAUSSIAN="true" HIDDEN="false" MARKER="anymal_origin_15" OPACITY="255" POSITION="'anymal_origin_1_anymal_origin_15_x' 'anymal_origin_1_anymal_origin_15_y' 'anymal_origin_1_anymal_origin_15_z'" RGB="93 93 93" SEGMENT="anymal" WEIGHT="1" DRAW-STYLE="None">
+				<TargetLocalPointToWorldPointTemplate COVARIANCE="1 0 0 0 1 0 0 0 1"/>
+			</TargetLocalPointToWorldPoint>
+		</Targets>
+	</TargetSet>
+</KinematicModel>
+

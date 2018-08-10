@@ -4,9 +4,7 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
-        - /Global Options1
-        - /Axes1
-        - /Axes2
+        - /TF1
       Splitter Ratio: 0.50555557
     Tree Height: 1135
   - Class: rviz/Selection
@@ -69,7 +67,7 @@ Visualization Manager:
       Enabled: true
       Frame Timeout: 15
       Frames:
-        All Enabled: true
+        All Enabled: false
         LF_ADAPTER:
           Value: true
         LF_FOOT:
@@ -114,103 +112,147 @@ Visualization Manager:
           Value: true
         base_inertia:
           Value: true
+        control:
+          Value: true
         feetcenter:
           Value: true
         footprint:
           Value: true
         ghost_desired/LF_ADAPTER:
-          Value: true
+          Value: false
         ghost_desired/LF_FOOT:
-          Value: true
+          Value: false
+        ghost_desired/LF_HIP:
+          Value: false
         ghost_desired/LF_SHANK:
-          Value: true
+          Value: false
+        ghost_desired/LF_THIGH:
+          Value: false
         ghost_desired/LH_ADAPTER:
-          Value: true
+          Value: false
         ghost_desired/LH_FOOT:
-          Value: true
+          Value: false
+        ghost_desired/LH_HIP:
+          Value: false
         ghost_desired/LH_SHANK:
-          Value: true
+          Value: false
+        ghost_desired/LH_THIGH:
+          Value: false
         ghost_desired/RF_ADAPTER:
-          Value: true
+          Value: false
         ghost_desired/RF_FOOT:
-          Value: true
+          Value: false
+        ghost_desired/RF_HIP:
+          Value: false
         ghost_desired/RF_SHANK:
-          Value: true
+          Value: false
+        ghost_desired/RF_THIGH:
+          Value: false
         ghost_desired/RH_ADAPTER:
-          Value: true
+          Value: false
         ghost_desired/RH_FOOT:
-          Value: true
+          Value: false
+        ghost_desired/RH_HIP:
+          Value: false
         ghost_desired/RH_SHANK:
-          Value: true
+          Value: false
+        ghost_desired/RH_THIGH:
+          Value: false
         ghost_desired/base:
-          Value: true
+          Value: false
         ghost_desired/base_inertia:
-          Value: true
+          Value: false
+        ghost_desired/feetcenter:
+          Value: false
+        ghost_desired/footprint:
+          Value: false
         ghost_desired/imu_link:
-          Value: true
+          Value: false
         ghost_desired/realsense_d435_camera:
-          Value: true
+          Value: false
         ghost_desired/realsense_d435_camera_axis_aligned:
-          Value: true
+          Value: false
         ghost_desired/realsense_d435_depth_optical_frame:
-          Value: true
+          Value: false
         ghost_desired/realsense_d435_mount:
-          Value: true
+          Value: false
         ghost_desired/realsense_d435_mount_axis_aligned:
-          Value: true
+          Value: false
         ghost_desired/velodyne:
-          Value: true
+          Value: false
         ghost_desired/velodyne_axis_aligned:
-          Value: true
+          Value: false
         ghost_desired/velodyne_mount:
-          Value: true
+          Value: false
         ghost_measured/LF_ADAPTER:
-          Value: true
+          Value: false
         ghost_measured/LF_FOOT:
-          Value: true
+          Value: false
+        ghost_measured/LF_HIP:
+          Value: false
         ghost_measured/LF_SHANK:
-          Value: true
+          Value: false
+        ghost_measured/LF_THIGH:
+          Value: false
         ghost_measured/LH_ADAPTER:
-          Value: true
+          Value: false
         ghost_measured/LH_FOOT:
-          Value: true
+          Value: false
+        ghost_measured/LH_HIP:
+          Value: false
         ghost_measured/LH_SHANK:
-          Value: true
+          Value: false
+        ghost_measured/LH_THIGH:
+          Value: false
         ghost_measured/RF_ADAPTER:
-          Value: true
+          Value: false
         ghost_measured/RF_FOOT:
-          Value: true
+          Value: false
+        ghost_measured/RF_HIP:
+          Value: false
         ghost_measured/RF_SHANK:
-          Value: true
+          Value: false
+        ghost_measured/RF_THIGH:
+          Value: false
         ghost_measured/RH_ADAPTER:
-          Value: true
+          Value: false
         ghost_measured/RH_FOOT:
-          Value: true
+          Value: false
+        ghost_measured/RH_HIP:
+          Value: false
         ghost_measured/RH_SHANK:
-          Value: true
+          Value: false
+        ghost_measured/RH_THIGH:
+          Value: false
         ghost_measured/base:
-          Value: true
+          Value: false
         ghost_measured/base_inertia:
-          Value: true
+          Value: false
+        ghost_measured/feetcenter:
+          Value: false
+        ghost_measured/footprint:
+          Value: false
         ghost_measured/imu_link:
-          Value: true
+          Value: false
         ghost_measured/realsense_d435_camera:
-          Value: true
+          Value: false
         ghost_measured/realsense_d435_camera_axis_aligned:
-          Value: true
+          Value: false
         ghost_measured/realsense_d435_depth_optical_frame:
-          Value: true
+          Value: false
         ghost_measured/realsense_d435_mount:
-          Value: true
+          Value: false
         ghost_measured/realsense_d435_mount_axis_aligned:
-          Value: true
+          Value: false
         ghost_measured/velodyne:
-          Value: true
+          Value: false
         ghost_measured/velodyne_axis_aligned:
-          Value: true
+          Value: false
         ghost_measured/velodyne_mount:
-          Value: true
+          Value: false
         imu_link:
+          Value: true
+        loco_footprint:
           Value: true
         map:
           Value: true
@@ -218,11 +260,57 @@ Visualization Manager:
           Value: true
         odom:
           Value: true
+        realsense_d435_aligned_depth_to_color_frame:
+          Value: true
+        realsense_d435_aligned_depth_to_infra1_frame:
+          Value: true
+        realsense_d435_aligned_depth_to_infra2_frame:
+          Value: true
         realsense_d435_camera:
           Value: true
         realsense_d435_camera_axis_aligned:
           Value: true
+        realsense_d435_camera_forward:
+          Value: true
+        realsense_d435_color_frame:
+          Value: true
+        realsense_d435_color_optical_frame:
+          Value: true
+        realsense_d435_depth_frame:
+          Value: true
         realsense_d435_depth_optical_frame:
+          Value: true
+        realsense_d435_forward_aligned_depth_to_color_frame:
+          Value: true
+        realsense_d435_forward_aligned_depth_to_infra1_frame:
+          Value: true
+        realsense_d435_forward_aligned_depth_to_infra2_frame:
+          Value: true
+        realsense_d435_forward_camera:
+          Value: true
+        realsense_d435_forward_color_frame:
+          Value: true
+        realsense_d435_forward_color_optical_frame:
+          Value: true
+        realsense_d435_forward_depth_frame:
+          Value: true
+        realsense_d435_forward_depth_optical_frame:
+          Value: true
+        realsense_d435_forward_infra1_frame:
+          Value: true
+        realsense_d435_forward_infra1_optical_frame:
+          Value: true
+        realsense_d435_forward_infra2_frame:
+          Value: true
+        realsense_d435_forward_infra2_optical_frame:
+          Value: true
+        realsense_d435_infra1_frame:
+          Value: true
+        realsense_d435_infra1_optical_frame:
+          Value: true
+        realsense_d435_infra2_frame:
+          Value: true
+        realsense_d435_infra2_optical_frame:
           Value: true
         realsense_d435_mount:
           Value: true
@@ -289,7 +377,25 @@ Visualization Manager:
                 realsense_d435_mount:
                   realsense_d435_camera_axis_aligned:
                     realsense_d435_camera:
-                      realsense_d435_depth_optical_frame:
+                      realsense_d435_aligned_depth_to_color_frame:
+                        realsense_d435_color_optical_frame:
+                          {}
+                      realsense_d435_aligned_depth_to_infra1_frame:
+                        realsense_d435_infra1_optical_frame:
+                          {}
+                      realsense_d435_aligned_depth_to_infra2_frame:
+                        realsense_d435_infra2_optical_frame:
+                          {}
+                      realsense_d435_camera_forward:
+                        {}
+                      realsense_d435_color_frame:
+                        {}
+                      realsense_d435_depth_frame:
+                        realsense_d435_depth_optical_frame:
+                          {}
+                      realsense_d435_infra1_frame:
+                        {}
+                      realsense_d435_infra2_frame:
                         {}
               velodyne_mount:
                 velodyne_axis_aligned:
@@ -305,9 +411,99 @@ Visualization Manager:
                 {}
               vicon/marker5:
                 {}
+            control:
+              {}
             feetcenter:
               {}
             footprint:
+              {}
+            ghost_desired/base:
+              ghost_desired/LF_HIP:
+                ghost_desired/LF_THIGH:
+                  ghost_desired/LF_SHANK:
+                    ghost_desired/LF_ADAPTER:
+                      ghost_desired/LF_FOOT:
+                        {}
+              ghost_desired/LH_HIP:
+                ghost_desired/LH_THIGH:
+                  ghost_desired/LH_SHANK:
+                    ghost_desired/LH_ADAPTER:
+                      ghost_desired/LH_FOOT:
+                        {}
+              ghost_desired/RF_HIP:
+                ghost_desired/RF_THIGH:
+                  ghost_desired/RF_SHANK:
+                    ghost_desired/RF_ADAPTER:
+                      ghost_desired/RF_FOOT:
+                        {}
+              ghost_desired/RH_HIP:
+                ghost_desired/RH_THIGH:
+                  ghost_desired/RH_SHANK:
+                    ghost_desired/RH_ADAPTER:
+                      ghost_desired/RH_FOOT:
+                        {}
+              ghost_desired/base_inertia:
+                {}
+              ghost_desired/imu_link:
+                {}
+              ghost_desired/realsense_d435_mount_axis_aligned:
+                ghost_desired/realsense_d435_mount:
+                  ghost_desired/realsense_d435_camera_axis_aligned:
+                    ghost_desired/realsense_d435_camera:
+                      ghost_desired/realsense_d435_depth_optical_frame:
+                        {}
+              ghost_desired/velodyne_mount:
+                ghost_desired/velodyne_axis_aligned:
+                  ghost_desired/velodyne:
+                    {}
+            ghost_desired/feetcenter:
+              {}
+            ghost_desired/footprint:
+              {}
+            ghost_measured/base:
+              ghost_measured/LF_HIP:
+                ghost_measured/LF_THIGH:
+                  ghost_measured/LF_SHANK:
+                    ghost_measured/LF_ADAPTER:
+                      ghost_measured/LF_FOOT:
+                        {}
+              ghost_measured/LH_HIP:
+                ghost_measured/LH_THIGH:
+                  ghost_measured/LH_SHANK:
+                    ghost_measured/LH_ADAPTER:
+                      ghost_measured/LH_FOOT:
+                        {}
+              ghost_measured/RF_HIP:
+                ghost_measured/RF_THIGH:
+                  ghost_measured/RF_SHANK:
+                    ghost_measured/RF_ADAPTER:
+                      ghost_measured/RF_FOOT:
+                        {}
+              ghost_measured/RH_HIP:
+                ghost_measured/RH_THIGH:
+                  ghost_measured/RH_SHANK:
+                    ghost_measured/RH_ADAPTER:
+                      ghost_measured/RH_FOOT:
+                        {}
+              ghost_measured/base_inertia:
+                {}
+              ghost_measured/imu_link:
+                {}
+              ghost_measured/realsense_d435_mount_axis_aligned:
+                ghost_measured/realsense_d435_mount:
+                  ghost_measured/realsense_d435_camera_axis_aligned:
+                    ghost_measured/realsense_d435_camera:
+                      ghost_measured/realsense_d435_depth_optical_frame:
+                        {}
+              ghost_measured/velodyne_mount:
+                ghost_measured/velodyne_axis_aligned:
+                  ghost_measured/velodyne:
+                    {}
+            ghost_measured/feetcenter:
+              {}
+            ghost_measured/footprint:
+              {}
+            loco_footprint:
               {}
             map:
               {}
@@ -364,25 +560,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 3.39358258
+      Distance: 2.92238188
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.662688375
-        Y: 1.13698637
-        Z: -0.26661399
+        X: -0.091710344
+        Y: 1.0728054
+        Z: -0.122875914
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.489797115
+      Pitch: 0.304796606
       Target Frame: odom
       Value: Orbit (rviz)
-      Yaw: 5.20360279
+      Yaw: 5.25361538
     Saved: ~
 Window Geometry:
   Displays:
