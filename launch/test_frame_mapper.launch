@@ -1,0 +1,7 @@
+<launch>
+  <!--SYNTAX: static_transform_publisher x y z yaw pitch roll frame_id child_frame_id  period (milliseconds)-->
+  <node pkg="tf" type="static_transform_publisher" name="vicon_world_to_anymal_publisher" output="screen"  args="-1.559 3.935 0.5 0 -0.5 -0.8 /vicon/world /vicon/anymal/anymal 100" />
+  <node pkg="tf" type="static_transform_publisher" name="base_to_odom_publisher" output="screen"  args="1.5 -3 0.6 -1.84 0.65 0.1 /odom /base 100" />
+
+	<node pkg="vicon_bridge" type="vicon_transformation_publisher.py" name="" output="screen"/>
+</launch>

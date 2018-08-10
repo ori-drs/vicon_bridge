@@ -5,7 +5,8 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /Marker1/Status1
+        - /Axes1
+        - /Axes2
       Splitter Ratio: 0.50555557
     Tree Height: 1135
   - Class: rviz/Selection
@@ -51,195 +52,18 @@ Visualization Manager:
     - Alpha: 1
       Class: rviz/RobotModel
       Collision Enabled: false
-      Enabled: true
+      Enabled: false
       Links:
         All Links Enabled: true
         Expand Joint Details: false
         Expand Link Details: false
         Expand Tree: false
-        LF_ADAPTER:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        LF_FOOT:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        LF_HIP:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        LF_SHANK:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        LF_THIGH:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        LH_ADAPTER:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        LH_FOOT:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        LH_HIP:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        LH_SHANK:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        LH_THIGH:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         Link Tree Style: Links in Alphabetic Order
-        RF_ADAPTER:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        RF_FOOT:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        RF_HIP:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        RF_SHANK:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        RF_THIGH:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        RH_ADAPTER:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        RH_FOOT:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        RH_HIP:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        RH_SHANK:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        RH_THIGH:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        base:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        base_inertia:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        imu_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        realsense_d435_camera:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        realsense_d435_camera_axis_aligned:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        realsense_d435_depth_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        realsense_d435_mount:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        realsense_d435_mount_axis_aligned:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        velodyne:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        velodyne_axis_aligned:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        velodyne_mount:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        vicon/marker1:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        vicon/marker2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        vicon/marker3:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        vicon/marker4:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        vicon/marker5:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
       Name: RobotModel
       Robot Description: robot_description
       TF Prefix: ""
       Update Interval: 0
-      Value: true
+      Value: false
       Visual Enabled: true
     - Class: rviz/TF
       Enabled: true
@@ -289,8 +113,6 @@ Visualization Manager:
         base:
           Value: true
         base_inertia:
-          Value: true
-        control:
           Value: true
         feetcenter:
           Value: true
@@ -390,65 +212,17 @@ Visualization Manager:
           Value: true
         imu_link:
           Value: true
-        loco_footprint:
-          Value: true
         map:
           Value: true
         map_ga:
           Value: true
         odom:
           Value: true
-        realsense_d435_aligned_depth_to_color_frame:
-          Value: true
-        realsense_d435_aligned_depth_to_infra1_frame:
-          Value: true
-        realsense_d435_aligned_depth_to_infra2_frame:
-          Value: true
         realsense_d435_camera:
           Value: true
         realsense_d435_camera_axis_aligned:
           Value: true
-        realsense_d435_camera_forward:
-          Value: true
-        realsense_d435_color_frame:
-          Value: true
-        realsense_d435_color_optical_frame:
-          Value: true
-        realsense_d435_depth_frame:
-          Value: true
         realsense_d435_depth_optical_frame:
-          Value: true
-        realsense_d435_forward_aligned_depth_to_color_frame:
-          Value: true
-        realsense_d435_forward_aligned_depth_to_infra1_frame:
-          Value: true
-        realsense_d435_forward_aligned_depth_to_infra2_frame:
-          Value: true
-        realsense_d435_forward_camera:
-          Value: true
-        realsense_d435_forward_color_frame:
-          Value: true
-        realsense_d435_forward_color_optical_frame:
-          Value: true
-        realsense_d435_forward_depth_frame:
-          Value: true
-        realsense_d435_forward_depth_optical_frame:
-          Value: true
-        realsense_d435_forward_infra1_frame:
-          Value: true
-        realsense_d435_forward_infra1_optical_frame:
-          Value: true
-        realsense_d435_forward_infra2_frame:
-          Value: true
-        realsense_d435_forward_infra2_optical_frame:
-          Value: true
-        realsense_d435_infra1_frame:
-          Value: true
-        realsense_d435_infra1_optical_frame:
-          Value: true
-        realsense_d435_infra2_frame:
-          Value: true
-        realsense_d435_infra2_optical_frame:
           Value: true
         realsense_d435_mount:
           Value: true
@@ -515,25 +289,7 @@ Visualization Manager:
                 realsense_d435_mount:
                   realsense_d435_camera_axis_aligned:
                     realsense_d435_camera:
-                      realsense_d435_aligned_depth_to_color_frame:
-                        realsense_d435_color_optical_frame:
-                          {}
-                      realsense_d435_aligned_depth_to_infra1_frame:
-                        realsense_d435_infra1_optical_frame:
-                          {}
-                      realsense_d435_aligned_depth_to_infra2_frame:
-                        realsense_d435_infra2_optical_frame:
-                          {}
-                      realsense_d435_camera_forward:
-                        {}
-                      realsense_d435_color_frame:
-                        {}
-                      realsense_d435_depth_frame:
-                        realsense_d435_depth_optical_frame:
-                          {}
-                      realsense_d435_infra1_frame:
-                        {}
-                      realsense_d435_infra2_frame:
+                      realsense_d435_depth_optical_frame:
                         {}
               velodyne_mount:
                 velodyne_axis_aligned:
@@ -549,13 +305,9 @@ Visualization Manager:
                 {}
               vicon/marker5:
                 {}
-            control:
-              {}
             feetcenter:
               {}
             footprint:
-              {}
-            loco_footprint:
               {}
             map:
               {}
@@ -572,6 +324,20 @@ Visualization Manager:
       Namespaces:
         anymal: true
       Queue Size: 100
+      Value: true
+    - Class: rviz/Axes
+      Enabled: true
+      Length: 0.25
+      Name: Axes
+      Radius: 0.0199999996
+      Reference Frame: vicon/anymal/anymal
+      Value: true
+    - Class: rviz/Axes
+      Enabled: true
+      Length: 0.25
+      Name: Axes
+      Radius: 0.0199999996
+      Reference Frame: base
       Value: true
   Enabled: true
   Global Options:
@@ -598,25 +364,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 4.92138624
+      Distance: 3.39358258
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.450661272
-        Y: 1.23223817
-        Z: -0.309175551
+        X: -0.662688375
+        Y: 1.13698637
+        Z: -0.26661399
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.48479712
+      Pitch: 0.489797115
       Target Frame: odom
       Value: Orbit (rviz)
-      Yaw: 5.11360121
+      Yaw: 5.20360279
     Saved: ~
 Window Geometry:
   Displays:
