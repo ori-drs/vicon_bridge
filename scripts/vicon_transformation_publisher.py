@@ -17,7 +17,7 @@ def getTransformationMatrix(target, source, time):
     rospy.loginfo("Getting transfrom from %s to %s"%(source,target))
 
     global tf_listener
-    tf_listener.waitForTransform(target, source, time, rospy.Duration(4.0))
+    tf_listener.waitForTransform(target, source, time, rospy.Duration(60.0))
     try:
         (trans,rot) = tf_listener.lookupTransform(target, source, time)
     except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
