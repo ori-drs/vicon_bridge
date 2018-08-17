@@ -1,5 +1,19 @@
 # vicon_bridge
 
+# ORI Usage
+
+Detailed instructions can be found on the [ORI wiki](https://wiki.oxfordrobots.com/display/howto/Vicon+Guide).
+To use this package in the ORI leg lab run:
+```bash
+roslaunch vicon_bridge vicon_drs.roslaunch
+```
+
+There are some additional helper files in this package including:
+1. To view the URDF definition of the ANYmal in RVIZ including vicon markers using `roslaunch vicon_bridge view_urdf.launch`.
+2. Object file definitions for the Vicon Tracker are defined under `vicon_bridge/cfg/*.vsk`.
+3. To convert the vicon marker messages from type `vicon_bridge/Markers` to `visualization_msgs/MarkerArray` for display in RVIZ use `rosrun vicon_bridge vicon_marker_convertor.py`
+
+# Vicon_bridge documentation:
 This is a driver providing data from VICON motion capture systems. It is based on the vicon_mocap package from the starmac stacks.
 Additionally, it can handle multiple subjects / segments and allows to calibrate an origin of the vehicle(s) as this is somehow tedious with the VICON Tracker.
 
