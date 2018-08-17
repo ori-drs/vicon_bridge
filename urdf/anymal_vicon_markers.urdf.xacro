@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<!-- \file pmu.urdf.xacro \authors David Wisth <davidw@robots.ox.ac.uk>
+To convert to a URDF use: xacro anymal_vicon_markers.urdf.xacro
+Left and right are defined by the wearer of the suit
+(left = +ve y-axis and right = -ve y-axis in base frame.) -->
+
+<robot name="pmu" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:arg name="velodyne"            default="true"/>
+  <xacro:arg name="realsense"           default="true"/>
+  <xacro:include filename="$(find anymal_boxy_description)/urdf/anymal.urdf.xacro"/>
+
+  <xacro:property name="vicon_marker_size" value="0.007"/>
+  <xacro:property name="standoff_height" value="0.020"/>
+  <xacro:property name="standoff_radius" value="0.002"/>
+
+  <link name="vicon/marker1">
+    <visual>
+      <geometry>
+        <sphere radius="${vicon_marker_size}"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <visual>
+      <geometry>
+        <cylinder radius="${standoff_radius}" length="${standoff_height}"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 ${-standoff_height/2 - standoff_radius/2}"/>
+      <material name="white"/>
+    </visual>
+  </link>
+  <joint name="base_to_vicon1" type="fixed">
+    <parent link="base"/>
+    <child link="vicon/marker1"/>
+    <origin rpy="0 0 ${pi/2}" xyz="0.196 -0.099 0.22"/>
+  </joint>
+
+  <link name="vicon/marker2">
+    <visual>
+      <geometry>
+        <sphere radius="${vicon_marker_size}"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <visual>
+      <geometry>
+        <cylinder radius="${standoff_radius}" length="${standoff_height}"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 ${-standoff_height/2 - standoff_radius/2}"/>
+      <material name="white"/>
+    </visual>
+  </link>
+  <joint name="base_to_vicon2" type="fixed">
+    <parent link="base"/>
+    <child link="vicon/marker2"/>
+    <origin rpy="0 0 ${pi/2}" xyz="0.126 0.099 0.22"/>
+  </joint>
+
+  <link name="vicon/marker3">
+    <visual>
+      <geometry>
+        <sphere radius="${vicon_marker_size}"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <visual>
+      <geometry>
+        <cylinder radius="${standoff_radius}" length="${standoff_height}"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 ${-standoff_height/2 - standoff_radius/2}"/>
+      <material name="white"/>
+    </visual>
+  </link>
+  <joint name="base_to_vicon3" type="fixed">
+    <parent link="base"/>
+    <child link="vicon/marker3"/>
+    <origin rpy="0 0 ${pi/2}" xyz=".042 -0.098 0.22"/>
+  </joint>
+
+  <link name="vicon/marker4">
+    <visual>
+      <geometry>
+        <sphere radius="${vicon_marker_size}"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <visual>
+      <geometry>
+        <cylinder radius="${standoff_radius}" length="${standoff_height}"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 ${-standoff_height/2 - standoff_radius/2}"/>
+      <material name="white"/>
+    </visual>
+  </link>
+  <joint name="base_to_vicon4" type="fixed">
+    <parent link="base"/>
+    <child link="vicon/marker4"/>
+    <origin rpy="0 0 ${pi/2}" xyz="-0.101 0.059 0.360"/>
+  </joint>
+
+  <link name="vicon/marker5">
+    <visual>
+      <geometry>
+        <sphere radius="${vicon_marker_size}"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <visual>
+      <geometry>
+        <cylinder radius="${standoff_radius}" length="${standoff_height}"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 ${-standoff_height/2 - standoff_radius/2}"/>
+      <material name="white"/>
+    </visual>
+  </link>
+  <joint name="base_to_vicon5" type="fixed">
+    <parent link="base"/>
+    <child link="vicon/marker5"/>
+    <origin rpy="0 0 ${pi/2}" xyz="-0.101 -0.059 0.360"/>
+  </joint>
+
+</robot>
