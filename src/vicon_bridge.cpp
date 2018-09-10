@@ -504,7 +504,10 @@ private:
                 if (seg.is_ready)
                 {
                   transform = transform * seg.calibration_pose;
-                  transforms.push_back(tf::StampedTransform(transform, frame_time, tf_ref_frame_id_, tracked_frame));
+                  // @davidwisth: Original version
+                  // transforms.push_back(tf::StampedTransform(transform, frame_time, tf_ref_frame_id_, tracked_frame));
+                  // @davidwisth: publishing the inverse as a workaround for TF tree limitations.
+                  transforms.push_back(tf::StampedTransform(transform.inverse(), frame_time, tracked_frame, tf_ref_frame_id_));
 //                  transform = tf::StampedTransform(flyer_transform, frame_time, tf_ref_frame_id_, tracked_frame);
 //                  tf_broadcaster_.sendTransform(transform);
 
